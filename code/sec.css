@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+padding:0%;
+box-sizing:border-box
+}
+body{
+    background-color: rgb(228, 139, 87);
+}
+.main_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    margin: auto;
+    margin-top: 23px;
+   padding: 10px 0px 10px 0px;
+    height: 400px;
+    width: 250px;
+    background-color: turquoise;
+    border-radius: 6px;
+}
+.but{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.topic{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: tomato;
+    text-shadow: rgb(134, 216, 198) 5px 5px;
+    transition: 1s;
+    /* background-color: turquoise; */
+   
+}
+#GK:hover{
+    height: 305px;
+    width:205px ;
+      
+
+
+}
+#KBC:hover{
+    height: 305px;
+    width:205px ;
+}
+#Game:hover{
+    height: 305px;
+    width:205px ;
+}
+#Science:hover{
+    height: 305px;
+    width:205px ;
+}
+.header{
+    background-color: rgba(222, 100, 35, 0.849);
+    width: 100vw;
+    height: 100px;
+    box-shadow: 0px 0px 2px 2px rgb(221, 108, 32);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:900;
+    font-size: 25px;
+    color: teal;
+}
+#GK{
+    background-image: url("https://lh6.googleusercontent.com/proxy/97bcVvhWaQoDQva9lBD4d4nL3yGu6XB0sw1UbOUwy8gu3tJuL5coukbeCJrGO1TzVx0MnZPAqFjTxhpNdKD_kGoRhZ3Xf-glU7iBHD3cRHHL63ZtH1A=w1200-h630-p-k-no-nu");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#KBC{
+    background-image: url("img/kbc-11.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Game{
+    background-image: url("img/icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Science{
+    background-image: url("img/science-binder.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
